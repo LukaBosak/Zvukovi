@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Holy Four</string>
+    <string name="king_crimson">King Crimson</string>
+    <string name="genesis">Genesis</string>
+    <string name="yes">Yes</string>
+    <string name="caravan">Caravan</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="restart">Restart</string>
+    <string name="stop">Stop</string>
+    <string name="song_name_1">King Crimson - 21st Century Schizoid Man</string>
+    <string name="song_name_2">Genesis - The Knife</string>
+    <string name="song_name_3">Yes - Heart Of The Sunrise</string>
+    <string name="song_name_4">Caravan - And I Wish I Were Stoned</string>
+    <string name="volume">VOLUME</string>
+    <string name="forward">forward</string>
+    <string name="backward">backward</string>
+    <string name="choose_background">Choose background</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="songs">Songs</string>
+    <string name="folders">Folders</string>
+
+
+</resources>

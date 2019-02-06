@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_mediaPlayer"
+        android:title="MediaPlayer"
+        android:icon="@drawable/ic_music_note"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_background"
+        android:title="Choose background"
+        android:icon="@drawable/ic_wallpaper"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_cancel"
+        android:title="Cancel"
+        android:icon="@drawable/ic_action_cancel"
+        app:showAsAction="always"/>
+
+
+
+</menu>

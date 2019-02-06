@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity"
+    android:orientation="vertical"
+    android:id="@+id/playActivityLL"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/cover_prog">
+
+
+
+    <TextView
+
+        android:id="@+id/songInfoTV"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mojColor"
+        android:textStyle="bold"/>
+
+
+
+    <hr.bosak.zvukovi.HorizontalSlider
+
+        android:id="@+id/seekSlider"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/progressTV"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mojColor"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+
+            android:id="@+id/playBTN"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_action_playback_play"
+            android:background="@drawable/roundcorner"/>
+
+        <ImageButton
+
+            android:id="@+id/forwardBTN"
+            android:layout_toRightOf="@+id/playBTN"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_action_playback_forw"
+            android:background="@drawable/roundcorner"/>
+
+        <ImageButton
+
+            android:id="@+id/backwardBTN"
+            android:layout_toLeftOf="@+id/playBTN"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_action_playback_rew"
+            android:background="@drawable/roundcorner"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+
+            android:id="@+id/stopBTN"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_action_playback_stop"
+            android:background="@drawable/roundcorner"/>
+
+        <ImageButton
+
+            android:id="@+id/shuffleBTN"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_shuffle"
+            android:background="@drawable/roundcorner"/>
+
+
+    </LinearLayout>
+
+
+    <SeekBar
+            android:layout_marginTop="40dp"
+            android:id="@+id/volumeSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volume"
+        android:textColor="@color/mojColor"/>
+
+
+
+
+
+</LinearLayout>
